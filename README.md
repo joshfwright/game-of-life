@@ -1,7 +1,8 @@
 # game-of-life
 ## About:
-This repository is a basic implementation of Conway's Game of Life, a cellular automaton developed by the prolific mathematician John Horton Conway (with some foundations belonging to Ulam and von Neumann). This was originally a project for a CSC 250 course I took while working on my undergraduate degree and have since expanded upon. This current version is written in C and uses multiple, two-dimensional arrays in the main algorithm to update and accurately display the growth, decline or complete dissolution of neighborhoods of cells. My goal is to evolve it into more complex versions using different data structures as time permits and skill level increases.     
+This repository is a basic implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway's_Game_of_Life), a cellular automaton developed by the prolific mathematician [John Horton Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) (with some foundations belonging to Ulam and von Neumann). This was originally a project for a CSC 250 course I took while working on my undergraduate degree and have since expanded upon. This current version is written in C and uses multiple, two-dimensional arrays in the main algorithm to update and accurately display the growth, decline or complete dissolution of neighborhoods of cells. My goal is to evolve it into more complex versions using different data structures as time permits and skill level increases.     
 
+For an interesting example of what can be done with Conway's Game of Life, have a look at the [Code Challenge at Stack Exchange](https://codegolf.stackexchange.com/questions/88783/build-a-digital-clock-in-conways-game-of-life/) to build a digital clock using Conway's rules.
 
 ## What's Here?
 ### Currently there are two versions in this repository:
