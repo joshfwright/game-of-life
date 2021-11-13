@@ -10,13 +10,17 @@ This repository is a basic implementation of Conway's Game of Life, a cellular a
 * Uses an "@" character to denote a live cell and a "." character to denote a dead/empty cell within a terminal window.
 
 #### CLI Plus Graphics Version (gameOfLifeGfx.c): 
-* Does what the CLI-only version does and also opens a supplemental graphics window to demonstrate live or dead/empty cells. Live cells are represented by filled circles and dead/empty ones are represented by empty space. See the .mp4 video in the repository for an example of this version running, which includes the CLI-Only version running simultaneously.  
+* Does what the CLI-only version does and also opens a supplemental graphics window to demonstrate live or dead/empty cells. Live cells are represented by filled circles and dead/empty ones are represented by empty space. See the .mp4 below for an example of this version running, which includes the CLI-Only version running simultaneously on the left in the video.  
+
+
+https://user-images.githubusercontent.com/94140980/141614286-deee7f69-18e4-4f2b-a528-d6a5f3e6e9df.mp4
+
 
 
 ## How to Run The Two Versions:
 * Everything required for you to compile and run both versions of the Game of Life on a Linux system is in this repository, including a handy makefile. The graphics library object (gfxGraphicsLib.o) is also included and ready to go, and only needs to be rebuilt if you decide to change any characteristics about the circles representing live cells (color, size, or want to use a different shape altogether). 
  
-* To run either program one step at a time, just press that trusty enter key. To run multiple times in a row, just hold down the enter key for a few seconds at a time or stack some input - you'll see an example of this in the .mp4 video included in the repository.
+* To run either program one step at a time, just press that trusty enter key. To run multiple times in a row, just hold down the enter key for a few seconds at a time or stack some input - like you'll see in the .mp4 above.
  
 * The included gameData.txt file, which the programs read in for processing and display, stabilizes after about 800 iterations, and every character input into the terminal will product one iteration.
  
