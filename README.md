@@ -14,13 +14,13 @@ This repository is a basic implementation of Conway's Game of Life, a cellular a
 
 
 ## How to Run The Two Versions:
-* Everything required for you to compile and run both versions of the Game of Life on a Linux system is in this repository, inluding a handy makefile.
+* Everything required for you to compile and run both versions of the Game of Life on a Linux system is in this repository, including a handy makefile.
  
 * To run either program one step at a time, just press that trusty enter key. To run multiple times in a row, just hold down the enter key for a few seconds at a time or stack some input - you'll see an example of this in the .mp4 video included in the repository.
  
 * The included gameData.txt file, which the programs read in for processing and display, stabilizes after about 800 iterations, and every character input into the terminal will product one iteration.
  
-* Feel free to make your own data files to use, but if you use data files larger than 200 rows by 200 columns, be sure to change the MAX_ROWS and MAX_COLS defintions in the .c file for the corresponding program.
+* Feel free to make your own data files to use, but if you use data files larger than 200 rows by 200 columns, be sure to change the MAX_ROWS and MAX_COLS definitions in the .c file for the corresponding program.
 
 
                  
