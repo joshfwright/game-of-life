@@ -19,13 +19,13 @@ https://user-images.githubusercontent.com/94140980/141614286-deee7f69-18e4-4f2b-
 
 
 ## How to Run The Two Versions:
-* Everything required for you to compile and run both versions of the Game of Life on a Linux system is in this repository, including a handy makefile. The graphics library object (gfxGraphicsLib.o) is also included and ready to go, and only needs to be rebuilt if you decide to change any characteristics about the circles representing live cells (color, size, or want to use a different shape altogether). 
+* Everything required to compile and run both versions of the Game of Life on a Linux system is in this repository, including a handy makefile. The graphics library object (gfxGraphicsLib.o) is also included and ready to go, and only needs to be rebuilt if changes are desired for any characteristics of the circles representing live cells (color, size, or using a different shape altogether). 
  
-* To run either program one step at a time, just press that trusty enter key. To run multiple times in a row, just hold down the enter key for a few seconds at a time or stack some input - like you'll see in the .mp4 above.
+* To run either program one step at a time, just press that trusty enter key. To run multiple times in a row, just hold down the enter key for a few seconds at a time, or stack some input - like you'll see in the .mp4 above.
  
 * The included gameData.txt file, which the programs read in for processing and display, stabilizes after about 800 iterations, and every character input into the terminal will product one iteration.
  
-* Feel free to make your own data files to use, but if you use data files larger than 200 rows by 200 columns, be sure to change the MAX_ROWS and MAX_COLS definitions in the .c file for the corresponding program.
+* Feel free to make new data files to use, but if the data file(s) are larger than 200 rows by 200 columns, be sure to change the MAX_ROWS and MAX_COLS definitions in the .c file for the corresponding program.
 
 
                  
