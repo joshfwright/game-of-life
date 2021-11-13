@@ -23,8 +23,7 @@ gameOfLife: gameOfLife.c
 >   gcc -g gameOfLife.c -o gol
 
 
-# This version requires the gfx library and uses both the terminal window and a graphics window 
-# for simultaneous display of the Game of Life:  
+# This version requires the gfx library and uses both the terminal window and a graphics window:  
 gameOfLifeGfx: gameOfLifeGfx.c gfxGraphicsLib.o    
 >@  echo "Rebuilding gameofLifeGfx into the program named golgfx ..."
 >   gcc -g gameOfLifeGfx.c gfx.o gfxGraphicsLib.o -o golgfx -lm -lX11
