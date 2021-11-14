@@ -207,14 +207,15 @@ void UpdateLifeGrid(int cellGrid[MAX_ROWS][MAX_COLS], int numRows, int numCols)
  **************************************************************************************************/
 void DisplayProgramFooter(int cellGrid[MAX_ROWS][MAX_COLS], int stepCount)
 {
-    printf("\n\n|***********************************\n");        
-    printf("|******* GAME OF LIFE STATS ********\n");
-    printf("|***********************************\n");
-    printf("|\n");        
+    printf("\n\n|*********************************************\n");        
+    printf("|************ GAME OF LIFE STATS *************\n");
+    printf("|*********************************************\n");
+    printf("| -- Be Sure to Enlarge The Terminal Window --\n");
+    printf("|\n");            
     printf("| Current Number of Live Cells: %d\n", CountLiveCells(cellGrid, numRows, numCols));           
     printf("| Number of Generations: %d\n", stepCount);
     printf("| Grid Size: %d rows by %d columns.\n", numRows, numCols);
-    printf("| Enter to continue, or 'q' to quit: ");
+    printf("| Enter to continue, or 'q' to quit:\n");
 }
 
 /**************************************************************************************************/
