@@ -1,19 +1,24 @@
 # Joshua Wright
 # makefile for all versions of gameOfLife in this project.
-# Updated: November 12, 2021
+# Updated: November 13, 2021
 # Original Version: March 08, 2021
 
 # use the .RECIPEPREFIX variable so we can use > for recipie lines instead of the default [tab].
 .RECIPEPREFIX = >
 
 
-# Rebuild all end-product targets
-all: gameOfLife gameOfLifeGfx gfxGraphicsLib.o
+all: gfx.o gfxGraphicsLib.o gameOfLife gameOfLifeGfx  
 
 
-# Use when the graphics library object needs updating
+# Base graphics library object:
+gfx.o: gfx.c gfx.h
+>@   echo "Rebuilding the base graphics library gfx.o ..."
+>   gcc -c gfx.c
+
+
+# Extended graphics library object: 
 gfxGraphicsLib.o: gfxGraphicsLib.c gfxGraphicsLib.h
->@   echo "Rebuilding library gfxGraphicsLib.o ..."
+>@   echo "Rebuilding the extended library gfxGraphicsLib.o ..."
 >   gcc -c gfxGraphicsLib.c
 
 
@@ -29,8 +34,8 @@ gameOfLifeGfx: gameOfLifeGfx.c gfxGraphicsLib.o
 >   gcc -g gameOfLifeGfx.c gfx.o gfxGraphicsLib.o -o golgfx -lm -lX11
 
 
-# Delete all:
 clean:
+>   rm -f gfx.o
 >   rm -f gfxGraphicsLib.o
 >   rm -f gol
 >   rm -f golgfx
