@@ -254,7 +254,7 @@ void DisplayProgramFooter(int cellGrid[MAX_ROWS][MAX_COLS], int stepCount)
     printf("| Current Number of Live Cells: %d\n", CountLiveCells(cellGrid, numRows, numCols));           
     printf("| Number of Generations: %d\n", stepCount);
     printf("| Grid Size: %d rows by %d columns.\n", numRows, numCols);
-    printf("| Enter to continue, or 'q' to quit: ");
+    printf("| Enter to continue, or 'q' to quit:\n");
 }
 
 
