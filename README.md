@@ -14,8 +14,7 @@ For an interesting example of what can be done with Conway's Game of Life, have 
 * Does what the CLI-only version does regarding stats but implements a graphics window to demonstrate live or dead/empty cells rather than using text characters. Live cells are represented by filled circles and dead/empty ones are represented by empty space. See the .mp4 below for an example of this version running.  
 
 
-NOTE: video will be here shortly
-
+https://user-images.githubusercontent.com/94140980/141672125-e886e740-c13f-4192-a294-97d7f9c495a5.mp4
 
 
 ## How to Run The Two Versions:
