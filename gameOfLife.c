@@ -1,4 +1,7 @@
 /*
+ * Last Updated: November 13, 2021
+ * Date Created: March 8, 2021
+ *
  * Programmer:   Joshua Wright
  * 
  * Description:  A CLI-only implementation of Conway's Game of Life. Originally written for a CSC 250 course (May, 2021) 
